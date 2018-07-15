@@ -1,0 +1,18 @@
+#nextStage{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+#nextStage>form{
+    position: absolute;
+    left: 15%;
+    right:15%;
+    top:20%;
+    bottom: 20%;
+    box-shadow: inset 0 0 0 0 lightgray;
+    background-color: white;
+    padding: 5%;
+}

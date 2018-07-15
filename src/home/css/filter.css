@@ -1,0 +1,12 @@
+#filter{
+    left: 1%;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    padding: 1% 0.5% 1% 0.5%;
+    position: relative;
+    margin-top: 85px;
+    height: 80px;
+    display:none;
+}

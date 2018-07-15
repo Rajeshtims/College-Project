@@ -1,0 +1,67 @@
+#sideProfile{
+    width: 100%;
+    background-color: white;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+    font-family: Arial;
+}
+#sideProfile>#header{
+    height:80px;
+    width: 90%;
+    background-color: #27bf67;
+    padding: 20px 5% 20px 5%;
+}
+#sideProfile>#header>#title{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+}
+#sideProfile>#header>#profile{
+    position: absolute;
+    left: 10%;
+    top: 70px;
+    width: 90%;
+}
+#sideProfile>#header>#profile>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 4px 1px rgba(255,255,255,0.5);
+    float: left;
+}
+#sideProfile>#header>#profile>#profileInfo{
+    float: left;
+    margin-top: 55px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#sideProfile #profileInfo>b{
+
+}
+#sideProfile #profileInfo>span{
+    margin-top: 5px;
+    color:rgba(0,0,0,0.5)
+}
+#sideProfile>#status{
+    padding: 20px 5% 20px 5%;
+    width: 90%;
+    overflow: hidden;
+}
+#sideProfile>#status>#about{
+    margin-left: 5%;
+    opacity: 0.8;
+    font-size: 14px;
+}
+#sideProfile>#status>section{
+    margin-top: 20px;
+    float: left;
+    margin-left: 15px;
+}
+#sideProfile>#status>section>b{
+    font-size: 13px;
+    color:  #424644 ;
+}
+#sideProfile>#status>section>div{
+    font-size: 18px;
+    color: #27bf67;
+    margin-top: 5px;
+}

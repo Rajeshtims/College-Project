@@ -1,0 +1,169 @@
+.postItem .sectionBreak{
+    Background-color:#1e8449;
+    height:1px;
+    width: 100%;
+    opacity: 0.2;
+}
+.comment{
+    padding:10px 0 10px 0;
+}
+.comment>.item{
+    clear:both;
+    overflow: hidden;
+    width: 100%;
+}
+.comment>.item>#img{
+    float: left;
+    width: 7%;
+}
+.comment>.item>#img>img{
+    height: 30px;
+    width:30px;
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.4);
+    border-radius:30px;
+}
+.comment>.item>#right{
+    float: left;
+    width: 93%;
+}
+.comment>.item>#right ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.comment>.item>#right>ul>li{
+    float:left;
+}
+.comment>.item>#right>ul#up{
+    padding: 5px 2% 5px 2%;
+    width: 96%;
+    overflow: hidden;
+    background-color:  rgba(30, 132, 73,0.08) ;
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+.comment>.item>#right>ul#up>li:nth-child(1){
+    font-size: 13px;
+    color:black;
+    font-weight: bold;
+    opacity: 0.8;
+
+}
+.comment>.item>div>ul#up>li:nth-child(2){
+    font-size: 12px;
+    color:rgba(0,0,0,0.8);
+    opacity: 0.8;
+}
+.comment>.item>#right>ul#down{
+    clear:both;
+    margin-top:10px;
+}
+.comment>.item>#right>ul#down>li>span{
+    color:rgba(0,0,0,0.6);
+    font-size: 12px;
+}
+.comment>.item>div>ul#down>li>b{
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+    color: brown;
+
+}
+.comment>.item>div>ul#down>li>img{
+    height: 18px;
+    width: 18px;
+    float: left;
+}
+.comment>.item>div>ul#down>li{
+    color:rgba(0,0,0,0.7);
+    margin-right: 25px;
+ }
+.comment #reply{
+    clear: both;
+    overflow: hidden;
+    padding-top: 10px;
+}
+#reply>.item{
+    clear: both;
+    overflow: hidden;
+}
+#reply>.item>#img{
+    float: left;
+    width: 7%;
+}
+#reply>.item>#img>img{
+    height: 25px;
+    width:25px;
+    border-radius:30px;
+}
+#reply>.item>#right{
+    float:left;
+    overflow: hidden;
+    width: 93%;
+}
+#reply>.item>#right>ul#up{
+    background-color:  rgba(30, 132, 73,0.08) ;
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+    overflow: hidden;
+    color: rgba(0,0,0,0.7);
+    font-size: 13px;
+    width: 96%;
+    padding: 5px 2% 5px 2%;
+}
+#reply>.item>#right>ul#down>li{
+    margin-right: 5px;
+    margin-top: 10px;
+    float: left;
+}
+#reply>.item>#right>ul#up>li:first-child{
+    font-weight: bold;
+}
+#reply>.item>#right>ul#down>li:nth-child(2){
+    color:rgba(0,0,0,0.5);
+    font-size: 12px;
+}
+#reply>.item>#right>ul#down{
+    clear:both;
+}
+#reply>.item>#right>ul#down>li>b{
+    float:left;
+    margin-left: 5px;
+    color: brown;
+    opacity: 0.8;
+
+}
+#reply>.item>#right>ul#down img{
+    width: 18px;
+    height: 18px;
+    float:left;
+}
+
+ .comment #write_reply{
+     clear: both;
+     width: 100%;
+     margin-top: 10px;
+ }
+ #write_reply>#img{
+     float: left;
+     width: 7%;
+ }
+#write_reply>#img>img{
+    width:30px;
+    height: 30px;
+    border-radius:30px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.4);
+}
+#write_reply>input{
+    float: left;
+    border:none;
+    box-shadow:  0 0 2px 0 #1e8449;
+    border-radius:20px;
+    height: 25px;
+    width: 83%;
+    padding-left: 5%;
+    font-size: 12px;
+    margin-left: 3%;
+}
+#write_reply>input:hover{
+    box-shadow: inset 0 0 1px 1px #1e8449;
+}

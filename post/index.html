@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>home</title>
+    <link href="../src/home/css/post.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="postItem">
+    <div id="info">
+        <img src="../src/home/images/post/girl.png"/>
+        <span id="name">Shures Nepali</span>
+        <span id="task">looking for job</span><br/><br/>
+        <span id="date">2012-12-23</span>
+    </div>
+    <div id="content">
+        <div id="status">
+            <span>hey this is the short infomation about how can we do the best </span>
+        </div>
+        <img src="../src/home/images/post/post.jpg"/>
+    </div>
+    <div id="action">
+        <ul>
+            <li style="color:this.state.styleLike" ><span>20 interested</span><img src="../src/home/images/post/girl.png"/></li>
+            <li><span>25 engagements</span><img src="../src/home/images/post/girl.png"/></li>
+        </ul>
+    </div>
+    <Comments postId={this.state.postItem.postId} socket={this.props.socket}/>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+#trending{
+    padding-top: 5px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+    background-color: white;
+    margin-top: 5px;
+}
+#trending>#title{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color:  #154505 ;
+    text-decoration: underline;
+}
+#trending>ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+#trending>ul>li{
+    padding:15px 10% 15px 10%;
+    width: 80%;
+
+}
+#trending>ul>li:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+#trending>ul>li>b{
+    font-size: 18px;
+    color:  #217506 ;
+}
+#trending>ul>li>div{
+    color:rgba(0,0,0,0.6)
+}

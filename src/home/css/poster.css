@@ -1,0 +1,677 @@
+#shadow{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1500px;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 5;
+}
+#poster{
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    background-color: white;
+    top: 85px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.2);
+    font-family: Arial;
+    /*font-family:Comfortaa, cursive;*/
+}
+#poster>#header{
+    width: 96%;
+    padding: 10px 0 10px 4%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.02);
+}
+#poster>#header>#title{
+    float: left;
+}
+#poster>#header>#title>img{
+    height: 15px;
+    width: 15px;
+    float: left;
+}
+#poster>#header>#title>span{
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+
+}
+#poster>#header>#select{
+    float: left;
+    margin-left: 35px;
+
+}
+#poster>#header>#select>img{
+    float: left;
+    height:15px ;
+    width: 15px;
+    opacity: 0.4;
+}
+#poster>#header>#select>span{
+    float: left;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 5px;
+}
+#poster>#header>#select>#change{
+    float: left;
+    margin-left: 5px;
+}
+#poster>#header>#select>#change>span{
+    color: #196f3d;
+    font-size: 14px;
+    font-weight: 600;
+}
+#poster>#header>#select>#change>span:hover{
+    color: #58605b;
+}
+#poster>#header>#select>#change>#items{
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    right: -100px;
+    margin-top: 10px;
+    z-index: 2;
+    box-shadow:  0 0 5px 0 rgba(0,0,0,0.4);
+
+}
+#poster>#header>#select>#change>#items>ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+#poster>#header>#select>#change>#items>ul>li{
+    color: black;
+    font-size: 14px;
+    font-weight: 100;
+    width: 90%;
+    padding: 5px 5% 5px 5%;
+}
+#poster>#header>#select>#change>#items>ul>li:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+#poster>#header>#close{
+    float: right;
+    margin-right: 10px;
+}
+#poster>#header>#close>img{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    opacity: 0.6;
+}
+#poster>#header>#close>img:hover{
+    opacity: 1;
+}
+#poster>#writeHolder{
+    clear: both;
+    min-height: 80px;
+    width: 96%;
+    padding-left: 4%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+
+}
+#poster>#writeHolder>#img{
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+#poster>#writeHolder>#img>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 12px;
+}
+#poster>#writeHolder>#content{
+    min-height: 75px;
+    width:74%;
+    overflow: hidden;
+    float: left;
+    padding:5px 2% 5px  3%;
+    margin-left: 1%;
+    border-radius: 3px;
+    color: rgba(0,0,0,0.8);
+    font-weight: 500;
+
+}
+#poster>#writeHolder>#content>div{
+    font-size: 15px;
+    overflow: hidden;
+    text-align: justify;
+}
+#poster>#writeHolder>#content img{
+    height: 15px;
+    width: 15px;
+    display: inline;
+    word-break: keep-all;
+    margin: 0 5px -2px 5px;
+}
+#poster>#writeHolder>#more{
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+#poster>#writeHolder>#more>div{
+    position: relative;
+}
+#poster>#writeHolder>#more>div>span{
+    position: absolute;
+    background-color: #58605b;
+    color: white;
+    font-family: "Arial";
+    padding:5px 10px 5px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: -80px;
+    margin-top: 5px;
+    display: none;
+}
+#poster>#writeHolder>#more>div>span>div{
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-left-color: #58605b;
+    position: absolute;
+    top:2px;
+    right: -18px;
+}
+#poster>#writeHolder>#more>div:hover span{
+    display: block;
+}
+#poster>#writeHolder>#more>div>img{
+    margin-top: 3px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#poster>#writeHolder>#more>div>img:hover{
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+}
+#poster #emogi>#emogi_container{
+    position: absolute;
+    width: 300px;
+    background-color:white;
+    top:0;
+    left:60px;
+    box-shadow:  0 0 3px 0 rgba(0,0,0,0.4);
+
+}
+#poster #emogi>#emogi_container>#items{
+    clear: both;
+    width: 100%;
+    padding: 5px;
+}
+#poster #emogi>#emogi_container>#items>img{
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding: 5px;
+}
+#poster #emogi>#emogi_container>#items>img:hover{
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+#poster #emogi>#emogi_container>#header{
+    padding: 5px;
+    text-align: center;
+    border-bottom:1px solid rgba(0,0,0,0.1) ;
+    background-color:rgba(0,0,0,0.08);
+    font-weight: 500;
+}
+
+
+#poster #color>#color_container{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color:white;
+    top:0;
+    left:60px;
+    box-shadow:  0 0 3px 0 rgba(0,0,0,0.4);
+}
+#poster #color>#color_container>#items{
+    clear: both;
+    width: 100%;
+    padding: 5px;
+}
+#poster #color>#color_container>#items>div{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 5px;
+}
+#poster #color>#color_container>#items>div#white{
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.5);
+}
+#poster #color>#color_container>#items>img:hover{
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+#poster #color>#color_container>#header{
+    padding: 5px;
+    text-align: center;
+    border-bottom:1px solid rgba(0,0,0,0.1) ;
+    background-color:rgba(0,0,0,0.08);
+    font-weight: 500;
+}
+
+
+
+
+
+#poster>#attach{
+    padding-top: 17px;
+}
+#poster>#attach>div{
+    float: left;
+    margin-left: 30px;
+}
+#poster>#attach>div>span{
+    position: absolute;
+    margin-top: -35px;
+    background-color: #58605b;
+    color: white;
+    font-family: "Arial";
+    padding:5px 10px 5px 10px;
+    border-radius: 2px;
+    margin-left: -30px;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+    min-width: 100px;
+
+}
+#poster>#attach>div>span>div{
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-top-color: #58605b;;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+#poster>#attach>div>img{
+    height: 25px;
+    width: 25px;
+    padding: 8px;
+    opacity: 0.9;
+}
+#poster>#attach>div:hover >span{
+    display: block;
+}
+#poster>#attach>div>img:hover {
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+#poster>#attach>div#photo{
+    position: relative;
+}
+#poster>#attach>div#photo>form{
+    padding:0;
+    margin:0;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+#poster>#attach>div#photo>form>input{
+    height: 25px;
+    width: 25px;
+    padding: 8px;
+    opacity: 0;
+}
+#poster>#attach>input{
+    margin-top: 8px;
+    float: right;
+    margin-right: 15px;
+    height: 25px;
+    border: none;
+    background-color:#58605b ;
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+    color:white;
+    border-radius:30px;
+    width:80px;
+
+}
+#poster>#attach>input:hover{
+    background-color: #27bf67;
+}
+#poster>#attach>#select>img{
+    float: left;
+    margin-left: 5px;
+}
+#poster>#attach>#deadline{
+    position: relative;
+}
+#poster>#attach>#deadline>#deadlineSelect{
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    box-shadow:  0 0 5px 0 rgba(0,0,0,0.4);
+    border-radius: 2px;
+    margin-left: -130px;
+
+}
+
+#poster>#attach>#deadline>#deadlineSelect>#header{
+    width: 92%;
+    padding: 4% 5px 10px 4%;
+    font-weight: 500;
+    text-align: center;
+}
+#poster>#attach>#deadline #sectionBreak{
+    width: 100%;
+    height: 1px;
+    background-color:rgba(0,0,0,0.5);
+    overflow: hidden;
+    clear: both;
+    opacity: 0.3;
+}
+#poster>#attach>#deadline>#deadlineSelect>#container{
+    padding-bottom: 10px;
+
+}
+#poster>#attach>#deadline>#deadlineSelect>#container>ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+#poster>#attach>#deadline>#deadlineSelect>#container>ul>li{
+    width: 92%;
+    padding:20px 4% 20px 4%;
+    clear:both;
+}
+#poster>#attach>#deadline>#deadlineSelect>#container>ul>li>span{
+    float: left;
+}
+#poster>#attach>#deadline>#deadlineSelect>#container>ul>li>input{
+    float:left;
+    margin-right:10px;
+}
+#poster>#attach>#deadline>#deadlineSelect>#container>#costume{
+    margin-left:20px;
+    margin-top: 15px;
+}
+#poster>#attach>#deadline>#deadlineSelect>#container>#costume{
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+#poster>#attach>#deadline>#deadlineSelect>#container>input{
+    clear: both;
+    margin-top:15px;
+    margin-left:20px;
+    border: none;
+    background-color: #4CAF50;
+    color: rgba(255,255,255,0.9);
+    padding: 3px 5px 3px 5px;
+    width: 80px;
+}
+#poster>.sectionBreak{
+    width: 100%;
+    height: 1px;
+    background-color:#27bf67 ;
+    overflow: hidden;
+    clear: both;
+    opacity: 0.5;
+}
+#poster>#selected{
+    clear: both;
+    padding: 10px 4% 10px 4%;
+    width: 92%;
+    overflow: hidden;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+#poster>#selected>#poll_selected{
+    clear:both;
+    width:96%;
+    padding:4px 0 10px 4%;
+    background-color:   #d8e5dd ;
+    border-radius: 2px;
+    position: relative;
+
+}
+#poster>#selected>#poll_selected>#img{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+}
+#poster>#selected>#poll_selected>#img>img{
+   height:10px;
+    width:10px;
+}
+#poster>#selected>#poll_selected>input[type="text"]{
+    clear: both;
+    margin-top: 8px;
+    width: 50%;
+    border: none;
+    color:rgba(0,0,0,0.5);
+    padding-left: 10px;
+    box-shadow: 0 0  2px 0 rgba(0,255,0,0.8);
+}
+#poster>#selected>#poll_selected>input[type="text"]:hover{
+    box-shadow: 0 0  2px 0 rgba(0,0,0,0.6);
+}
+#poster>#selected>#poll_selected>input[type="button"]{
+    clear: both;
+    margin-top: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: rgba(255,255,255,0.9);
+    padding: 3px 5px 3px 5px;
+    width: 100px;
+}
+#poster>#selected>#poll_selected>input[type="button"]:hover{
+    background-color:  #1e8449 ;
+}
+#poster>#selected>#photo_selected{
+    padding:5px 0 5px 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#poster>#selected>#photo_selected>#img{
+    float: left;
+    position: relative;
+}
+#poster>#selected>#photo_selected>#img>#progressBar{
+    height:60px;
+    padding-top: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+#poster>#selected>#photo_selected>#img>img{
+    height:120px;
+    width: 120px;
+    border-radius:2px;
+    opacity: 0;
+}
+#poster>#selected>#photo_selected>#title{
+    margin-left: 15px;
+    float: left;
+}
+#poster>#selected>#photo_selected>#title>input[type="text"]{
+    border: none;
+    border: 2px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.6);
+    height: 40px;
+    width: 290px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+#poster>#selected>#photo_selected>#title>input[type="button"]:hover{
+    background-color: #1e8449;
+}
+#poster>#selected>#location_selected{
+    clear: both;
+    background-color: red;
+
+}
+#poster>#selected>#location_selected>span{
+    padding: 2px 5px 2px 5px;
+    box-shadow:  inset 0 0 2px 0 rgba(0,0,0,0.3);
+    background-color:rgba(0,0,0,0.2) ;
+    color: rgba(0,0,0,0.8);
+    border-radius: 2px;
+    font-size: 13px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+
+}
+#poster>#selected>#location_selected>img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+#poster>#selected>#location_selected>div{
+    margin-top: 12px;
+    margin-left: 5px;
+    background-color: red;
+    height: 5px;
+    width: 15px;
+    float: left;
+}
+#poster>#selected>#deadline_selected{
+    width: 92%;
+    clear: both;
+    padding-top: 10px;
+
+}
+#poster>#selected>#deadline_selected>img{
+    margin-right: 5px;
+    height: 18px;
+    width: 18px;
+    float: left;
+}
+#poster>#selected>#deadline_selected>span{
+    background-color: #1e8449;
+    padding: 2px 5px 2px 5px;
+    color:rgba(255,255,255,0.7);
+    font-size: 12px;
+    border-radius: 5px;
+    float: left;
+}
+#poster>#selected>#deadline_selected>div{
+    margin-top: 7px;
+    margin-left: 5px;
+    background-color: red;
+    height: 5px;
+    width: 15px;
+    float: left;
+}
+#poster>#select{
+    clear: both;
+    padding: 10px 4% 10px 7%;
+    width: 89%;
+    overflow: hidden;
+}
+
+
+#poster>#select>#location_search>input{
+    border:none;
+    box-shadow:  0 0 2px 0 #1e8449;
+    border-radius:5px;
+    height: 25px;
+    width: 50%;
+    padding-left: 5%;
+    font-size: 12px;
+}
+#poster>#select>#location_search>input:hover{
+    box-shadow: inset 0 0 1px 1px #1e8449;
+}
+#poster>#attach>#location>div{
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    box-shadow:  0 0 5px 0 rgba(0,0,0,0.4);
+    border-radius: 2px;
+
+
+}
+#poster>#attach>#location>div>#header{
+    width: 92%;
+    padding: 4% 5px 10px 4%;
+}
+#poster>#attach>#location>div>#header>input{
+    border:none;
+    box-shadow:  0 0 2px 0 rgba(0,0,0,0.5);
+    border-radius:5px;
+    height: 25px;
+    width: 95%;
+    padding-left: 5%;
+    font-size: 12px;
+}
+#poster>#attach>#location .sectionBreak{
+    width: 100%;
+    height: 1px;
+    background-color:rgba(0,0,0,0.5);
+    overflow: hidden;
+    clear: both;
+    opacity: 0.3;
+}
+#poster>#attach>#location>#location_container>#item>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#poster>#attach>#location>#location_container>#item>ul>li{
+    width: 90%;
+    padding:5px 5% 5px 5%;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0,0,0,0.1) ;
+}
+#poster>#attach>#location>#location_container>#item>ul>li:hover{
+   background-color:rgba(0,0,0,0.1);
+}
+#poster>#attach>#location>#location_container>#item>ul>li>div{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+#poster>#attach>#location>#location_container>#item>ul>li>span{
+    color: rgba(0,0,0,0.6);
+    clear: both;
+}
+.Jclass{
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#select>.container{
+
+}
+
+
+
